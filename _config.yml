@@ -13,18 +13,18 @@
 
 #theme: jekyll-agency
 
-url    : "" # the base hostname & protocol for your site, e.g. http://example.com
+url    : "https://odavi4494-cpu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : Davi de Oliveira
 email      : odavi4494@gmail.com #this is also the email contact forms will go to
-description: "Portfólio pessoal"
+description: Portfólio de Davi de Oliveira, estudante de Ciência de Dados na UFV.
 author     : Davi de Oliveira Viana
 # logo:     #optional, defaults to site title
   # path: assets\img\clients\creative-market.jpg
   # height: 60 #height in px, defaults to 52px
 
-locale: "en-US" # See available languages in _data/sitetext.yml
+locale: "pt-BR" # See available languages in _data/sitetext.yml
 
 analytics:
   google: #Google Analytics tracking code here
