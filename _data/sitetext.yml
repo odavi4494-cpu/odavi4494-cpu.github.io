@@ -11,67 +11,52 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
-    button: Tell Me More
+    title: Olá seja bem-vindo!
+    text: Eu sou Davi de Oliveira
+    button: Conheça meu portfólio
     buttonlink: "#services"
 
   services:
-    title: "Services"
-    text: "Lorem ipsum"
+    title: "Minhas habilidades"
+    text: "Tecnologias e conhecimentos"
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+      - title: "Python"
+        desc: "Desenvolvimento de programas, automação e análise de dados."
+        icon: fas fa-code #find more at https://fontawesome.com/icons
+      - title: "Ciências de Dados"
+        desc: "Análise de dados, estatística e visualização de informações."
+        icon: fas fa-chart-line
+      - title: "Desenvolvimento Web"
+        desc: "Conhecimentos em HTML, CSS e GitHub Pages."
+        icon: fab fa-laptop
 
   portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    title: "Meus projetos"
+    text: "Alguns trabalhos desenvolvidos durante a graduação."
     section: portfolio
     closebutton: "Close Project"
 
   timeline:
-    title: "Timeline"
-    text: "Lorem ipsum timeline"
+    title: "Minha formação"
+    text: "Minha trajetória na educação"
     section: timeline
     # left is the default
     #start_align: "left"
     events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "Ingresso na UFV"
+        year: "2026"
+        desc: "Início da graduação em Ciência de Dados."
         image: assets/img/timeline/1.jpg
-        alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
         alt:
         # you can enforce the alignment
         align: right
     end: "Be Part <br> of Our <br> Story!"
 
   about:
-    title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    title: "Sobre mim"
+    text: "Quem sou eu"
+    body: "Sou Davi de Oliveira, estudante de Ciência de Dados na Universidade Federal de Viçosa (UFV). Tenho interesse em programação, análise de dados, estatística e desenvolvimento de soluções utilizando tecnologia. Estou sempre buscando aprender novas ferramentas e desenvolver projetos que contribuam para meu crescimento profissional."
     section: about
 
   clients:
@@ -95,7 +80,7 @@ en: &DEFAULT_EN
   team:
     title: "OUR AMAZING TEAM"
     text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad peSou Davi de Oliveira, estudante de Ciência de Dados na Universidade Federal de Viçosa (UFV). Tenho interesse em programação, análise de dados, estatística e desenvolvimento de soluções utilizando tecnologia. Estou sempre buscando aprender novas ferramentas e desenvolver projetos que contribuam para meu crescimento profissional.rspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
     people:
       - name: "Kay Garland"
@@ -130,8 +115,8 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
 
   contact:
-    title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    title: "Entre emcontato"
+    text: "Entre em conta comigo6"
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
